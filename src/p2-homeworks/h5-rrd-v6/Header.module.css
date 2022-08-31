@@ -1,0 +1,27 @@
+.link{
+    color: #008062;
+    margin: 10px;
+}
+
+.link:hover{
+    color: rgba(255, 182, 236, 0.98);
+}
+
+.block{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background: blueviolet;
+}
+
+.header{
+    display: flex;
+    width: 300px;
+    transition-duration: 500ms;
+    transform:translate(-240px);
+}
+
+.header:hover{
+    transition-duration: 500ms;
+    transform:translate(0);
+}
